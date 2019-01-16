@@ -9,4 +9,5 @@ int main(void){
 
     std::cout << ci1 << std::endl << ci3 << std::endl << pi << std::endl << cc << std::endl << cmp << std::endl;
 
+    return 0;
 }
