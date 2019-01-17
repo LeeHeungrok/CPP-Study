@@ -11,6 +11,11 @@ int main(void){
     int l = j++ + 4;
     int i = 3;
     int j = -i; // j는 -3
+    long l = 123456789012;
+    long l2 = l + 1.0f - 1.0;   // 부정확 => 1234567954431
+    long l3 = l + (1.0f - 1.0); // 정확  => 1234567890123
+    bool in_bound = min <= x <= y <= max; // 오류
+    bool in_bound1 = min <= x && x <= y && y <= max;
 
     return 0;
 }
